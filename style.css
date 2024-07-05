@@ -3,6 +3,7 @@ header {
 	text-align: center; 
 	padding: 20px;
 	background-color: Darkgreen;
+	border-radius: 25px;
 }
 
 h1 {
@@ -28,6 +29,7 @@ nav a {
 	font-family: verdana;
 	text-decoration: none;
 	padding: 14px 16px;
+	border-radius: 25px;
 }
 nav a:hover {
 	color: SkyBlue;
