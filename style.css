@@ -5,11 +5,11 @@ header {
 	background-color: Darkgreen;
 	border-radius: 25px;
 }
-
 h1 {
 	color: SandyBrown;
 	font-family: helvetica
 }
+
 
 /*navigation menu*/
 nav {
@@ -17,13 +17,11 @@ nav {
 	padding: 10px;
 	background-color: Darkgreen;
 }
-
 .sticky {
 	position: fixed;
 	top: 0;
 	width: 100%;
 }
-
 nav a {
 	color: DeepSkyBlue;
 	font-family: verdana;
@@ -37,22 +35,23 @@ nav a:hover {
 }
 
 
-
+/*text body formatting*/
 body {
-	background-color: AntiqueWhite;
+	background-color: BurlyWood;
 }
-
 h2 {
 	text-align: center;
 	font-family: georgia;
 	font-size: 22px;
 }
-
 p{
 	font-family: verdana;
 	font-size: 16px;
 }
-
+.container {
+	background-color: AntiqueWhite;
+	border-radius: 25px;
+}
 
 
 
@@ -63,7 +62,6 @@ p{
 	grid-template-rows: repeat(2, 5vw);
 	grid-gap: 15px;
 }
-
 img{
 	object-fit: scale-down;
 	max-width: 100%
