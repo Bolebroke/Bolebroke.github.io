@@ -18,6 +18,7 @@ nav {
 
 nav a {
 	color: DeepSkyBlue;
+	font-family: verdana;
 }
 
 body {
@@ -55,5 +56,13 @@ img{
 .column img{
 	margin-top 8px;
 	vertical-align: middle;
+}
+
+/*image gallery css*/
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(4, 5vw);
+	grid-gap: 15px;
 }
 
